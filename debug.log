@@ -1,0 +1,8 @@
+[0518/180427.856:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0518/214718.340:ERROR:file_io_win.cc(161)] CreateFile C:\Users\alexeya\AppData\Local\Temp\scoped_dir1896_19662\Crashpad\settings.dat: Системе не удается найти указанный путь. (0x3)
+[0518/214718.752:ERROR:file_io_win.cc(170)] CreateFile C:\Users\alexeya\AppData\Local\Temp\scoped_dir1896_19662\Crashpad\reports\5dd5b6ea-7c5d-48c2-be90-0ae60a2dc53d.dmp: Системе не удается найти указанный путь. (0x3)
+[0518/214718.752:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0522/141310.337:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0522/150212.672:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0523/175107.463:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0524/160134.034:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
