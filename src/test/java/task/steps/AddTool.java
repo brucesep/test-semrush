@@ -29,6 +29,7 @@ public class AddTool extends SetupToolPage {
         $$(inputText).last().setValue("saint");
         spbChoise.click();
         nextStep.click();
+        sleepTime(3000);
         nextStep.click();
         inputSandbox.click();
         inputSandbox.setValue("keyword1, keyword2");
