@@ -11,15 +11,15 @@ import static com.codeborne.selenide.Selenide.*;
  */
 public class TestBase {
 
-    static String url = "https://www.semrush.com/";
-    static SelenideElement language = $(".header-dropdown__toggle.uppercase");
-    static SelenideElement rusChoise = $(new Selectors.ByText("Русский"));
-    static SelenideElement entering = $(new Selectors.ByText("Войти"));
-    static ElementsCollection iconLogout = $$(".header-dropdown__toggle");
-    static SelenideElement exiting = $(new Selectors.ByText("Выйти"));
-    public static SelenideElement toolsCollection = $(".s-project__tools.js-project-tools");
-    public static SelenideElement tollExist = $(".tracking_report-title");
-    public static SelenideElement neededTool = $(".js-tracking.widget-tracking-wrapper").$(new Selectors.ByText("0%"));
+    private static String url = "https://www.semrush.com/";
+    private static SelenideElement language = $(".header-dropdown__toggle.uppercase");
+    private static SelenideElement rusChoise = $(new Selectors.ByText("Русский"));
+    private static SelenideElement entering = $(new Selectors.ByText("Войти"));
+    private static ElementsCollection iconLogout = $$(".header-dropdown__toggle");
+    private static SelenideElement exiting = $(new Selectors.ByText("Выйти"));
+    protected static SelenideElement toolsCollection = $(".s-project__tools.js-project-tools");
+    protected static SelenideElement tollExist = $(".tracking_report-title");
+    protected static SelenideElement neededTool = $(".js-tracking.widget-tracking-wrapper").$(new Selectors.ByText("0%"));
 
     public static void openUrl() {
 

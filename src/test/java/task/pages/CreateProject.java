@@ -11,8 +11,8 @@ import static com.codeborne.selenide.Selenide.$;
  */
 public class CreateProject {
 
-    public static SelenideElement projDomain = $(".s-no-projects__input.s-input__control");
-    public static SelenideElement projCreation = $(".s-no-projects__btn.s-btn.-success.-m");
-    public static SelenideElement loadPage = $(".pr-page__dashboard__project.clearfix");
+    protected static SelenideElement projDomain = $(".s-no-projects__input.s-input__control");
+    protected static SelenideElement projCreation = $(".s-no-projects__btn.s-btn.-success.-m");
+    protected static SelenideElement loadPage = $(".pr-page__dashboard__project.clearfix");
 
 }

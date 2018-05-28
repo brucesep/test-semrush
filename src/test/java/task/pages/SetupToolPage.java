@@ -15,19 +15,19 @@ public class SetupToolPage {
 
 
 
-    public static SelenideElement setupButt = $(".s-project__tool.-tracking.-open.js-tracking").$(".s-widget__bottom-left");
-    public static ElementsCollection buttonsColl = $$(By.cssSelector(".s-widgets-list.js-project-tools > div"));
-    public static SelenideElement nextStep = $(".w-navigation_footer-next");
-    public static SelenideElement selectionMenu = $$(".select2-choice.select2-default").get(0);
-    public static SelenideElement regionSelection = $(new Selectors.ByText("Select region (optional)"));
-    public static ElementsCollection inputText = $$(".select2-input");
-    public static SelenideElement rusChoise = $(new Selectors.ByText("Russ"));
-    public static SelenideElement spbChoise = $(new Selectors.ByText("Saint"));
-    public static SelenideElement inputSandbox = $(".wizard-textarea.js-keywords");
-    public static SelenideElement addToProject = $(".wizard-btn.-overall.-blue.js-add-keywords");
-    public static SelenideElement weekleUpds = $(".w-pt-weekly-notification_description");
-    public static SelenideElement startTracking = $(".tr-wizard-layout-save.js-wizard-layout-save");
-    public static ElementsCollection projectList = $$(".s-mshead-breadcrumbs-link");
-    public static SelenideElement ranckingsOver = $(".tracking_report-title");
+    protected static SelenideElement setupButt = $(".s-project__tool.-tracking.-open.js-tracking").$(".s-widget__bottom-left");
+    protected static ElementsCollection buttonsColl = $$(By.cssSelector(".s-widgets-list.js-project-tools > div"));
+    protected static SelenideElement nextStep = $(".w-navigation_footer-next");
+    protected static SelenideElement selectionMenu = $$(".select2-choice.select2-default").get(0);
+    protected static SelenideElement regionSelection = $(new Selectors.ByText("Select region (optional)"));
+    protected static ElementsCollection inputText = $$(".select2-input");
+    protected static SelenideElement rusChoise = $(new Selectors.ByText("Russ"));
+    protected static SelenideElement spbChoise = $(new Selectors.ByText("Saint"));
+    protected static SelenideElement inputSandbox = $(".wizard-textarea.js-keywords");
+    protected static SelenideElement addToProject = $(".wizard-btn.-overall.-blue.js-add-keywords");
+    protected static SelenideElement weekleUpds = $(".w-pt-weekly-notification_description");
+    protected static SelenideElement startTracking = $(".tr-wizard-layout-save.js-wizard-layout-save");
+    protected static ElementsCollection projectList = $$(".s-mshead-breadcrumbs-link");
+    protected static SelenideElement ranckingsOver = $(".tracking_report-title");
 
 }
