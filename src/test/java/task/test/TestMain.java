@@ -24,18 +24,19 @@ public class TestMain extends TestBase {
     @Test(priority = 1)
     public void logging() {
         EnterForm.entering();
+        Assert.assertTrue(TestBase.consolEnables.isDisplayed());
     }
-    @Test(priority = 2)
+    @Test(dependsOnMethods = {"logging"})
     public void creatProj(){
         ProjCreate.projCreation(projName);
         Assert.assertTrue(TestBase.toolsCollection.isDisplayed());
     }
-    @Test(priority = 3)
+    @Test(dependsOnMethods = {"creatProj"})
     public void addTool(){
         AddTool.setupingTool();
         Assert.assertTrue(TestBase.tollExist.isDisplayed());
     }
-    @Test(priority = 4)
+    @Test(dependsOnMethods = {"addTool"})
     public void checkAddTool(){
         AddTool.checkToolAdds();
         Assert.assertTrue(TestBase.neededTool.isDisplayed());
