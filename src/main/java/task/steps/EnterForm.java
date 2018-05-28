@@ -1,5 +1,6 @@
 package task.steps;
 
+import com.codeborne.selenide.Condition;
 import task.pages.RegEnterPage;
 
 /**
@@ -14,5 +15,6 @@ public class EnterForm extends RegEnterPage {
             reCaptcha.click();
         }
         submitButton.click();
+        submitButton.waitUntil(Condition.disappear, 10000);
     }
 }

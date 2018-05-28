@@ -37,7 +37,7 @@ public class AddTool extends SetupToolPage {
         weekleUpds.click();
         startTracking.click();
         sleepTime(3000);
-        ranckingsOver.waitUntil(Condition.appear, 5000);
+        ranckingsOver.waitUntil(Condition.appear, 10000);
     }
 
     public static void checkToolAdds() {
